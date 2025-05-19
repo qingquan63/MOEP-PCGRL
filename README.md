@@ -33,7 +33,7 @@ Our method returns a **Pareto front** of pruned ensembles, enabling flexible dec
 This project is **built upon** the [NCERL-Diverse-PCG](https://github.com/PneuC/NCERL-Diverse-PCG) framework. All environmental setups, folder structures, and model dependencies are consistent with the original repository.
 
 
-### Verified environment
+### Verified Environment
 
 - Python 3.9.6
 - JPype 1.3.0
