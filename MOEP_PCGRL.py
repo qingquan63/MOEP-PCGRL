@@ -415,7 +415,7 @@ if __name__ == '__main__':
     start_time = time.time()
     setup_seed(seed)
     pathlib.Path(f'/home/zqq/PycharmProjects/NCERL-Diverse-PCG/prunning/plan-{args.prunning_plan}/{seed}/').mkdir(parents=True, exist_ok=True)
-    popsize = 4
+    popsize = 10
     num_eval_data = 20
     theta = 2
     basemodel_infos = [
@@ -470,7 +470,7 @@ if __name__ == '__main__':
     Total_gen = 21
     
     nd = num_basemodels
-    level_iter = 7   # TODO
+    level_iter = 25
     
     init_set = np.load(getpath('analysis/initial_seg.npy'))
     
