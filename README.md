@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 ### Run a Training
 ```
-python main.py -- ncesac --prunning_plan 1 --randseed 1
+python MOEP_PCGRL.py -- ncesac --prunning_plan 1 --randseed 1
 ```
 
 
