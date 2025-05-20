@@ -2,17 +2,27 @@
 
 **Online Diverse Procedural Content Generation via Multi-Objective Ensemble Pruning**
 
-> This repository provides the official implementation for the paper:  
-> **"Online Diverse Procedural Content Generation via Multi-Objective Ensemble Pruning"**  
+> This repository provides the official implementation for the paper:
+> **"Online Diverse Procedural Content Generation via Multi-Objective Ensemble Pruning"**
 > The project introduces an efficient framework for generating diverse game content by adaptively pruning ensemble reinforcement learning models to match user preferences while reducing computational cost.
+>
+## 📄 Citation
 
+```
+@article{tong2025online,
+  title={Online Diverse Procedural Content Generation via Multi-Objective Ensemble Pruning},
+  author={Tong, Hao and Zhang, Qingquan, and Yuan, Bo and Wang, Handing, and Liu Jialin},
+  journal={under review},
+  year={2025}
+}
+```
 ---
 
 ## 🔍 Overview
 
-Online diverse content generation is one of the important research directions in the field of procedural content generation in recent years. It can not only meet users' different preferences and enhance user experience, but also provide a large number of scenarios and problems for training and testing artificial intelligence algorithms. 
+Online diverse content generation is one of the important research directions in the field of procedural content generation in recent years. It can not only meet users' different preferences and enhance user experience, but also provide a large number of scenarios and problems for training and testing artificial intelligence algorithms.
 
-Although online diverse content generation methods based on ensemble models have been proposed in literature, such methods 
+Although online diverse content generation methods based on ensemble models have been proposed in literature, such methods
 
 1. **cannot effectively meet the specific preferences of different users**
 2. **require  a lot of computational resources when training and deploying individual learning models**
@@ -22,8 +32,6 @@ This paper proposes an online content generation approach based on **multi-objec
 Our method returns a **Pareto front** of pruned ensembles, enabling flexible decision-making.
 
 ---
-
-
 
 ## 🚀 Getting Started
 
@@ -59,20 +67,4 @@ pip install -r requirements.txt
 ### Run a Training
 ```
 python MOEP_PCGRL.py -- ncesac --prunning_plan 1 --randseed 1
-```
-
-
-
----
-
-## 📄 Citation
-
-If you find this repository helpful in your work, please cite:
-
-```
-@article{your2025ncerl,
-  title={Online Diverse Procedural Content Generation via Multi-Objective Ensemble Pruning},
-  journal={under review},
-  year={2025}
-}
 ```
