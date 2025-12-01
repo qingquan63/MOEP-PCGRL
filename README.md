@@ -12,8 +12,9 @@
 @article{tong2025online,
   title={Online Diverse Procedural Content Generation via Multi-Objective Ensemble Pruning},
   author={Tong, Hao and Zhang, Qingquan, and Yuan, Bo and Wang, Handing, and Liu Jialin},
-  journal={under review},
-  year={2025}
+  journal={Control Theory \& Applications},
+  year={2025},
+  doi={10.7641/CTA.2025.50126}
 }
 ```
 ---
